@@ -1,0 +1,84 @@
+h2 {
+    text-align: center;
+}
+
+.books_taken_div {
+    box-shadow: 2px 2px 10px 2px rgb(226, 226, 226);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+table,th,td {
+    border-collapse: collapse;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+th {
+    color: rgb(247, 161, 26);
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 651px) {
+    .book_info_form {
+        width: 400px;
+        margin: 15px auto;
+    }
+    .books_taken_div {
+        width: 400px;
+        margin: 15px auto;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .book_info_form {
+        margin: 15px;
+    }
+    .books_taken_div {
+        margin: 15px;
+    }
+}
+
+.book_info_form {
+    padding: 10px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 2px rgb(226, 226, 226);
+}
+
+input {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 93%;
+    border: 1px solid rgb(184, 183, 183);
+    border-radius: 5px;
+}
+
+input[type='button'], input[type='submit'] {
+    cursor: pointer;
+    box-shadow: 2px 2px 10px 2px rgb(226, 226, 226);
+    width: 99%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
+.delete_button {
+    background-color: red;
+}
+
+.edit_button {
+    background-color: rgb(247, 161, 26);
+}
+
+.ok_button {
+    background-color: rgb(247, 161, 26);
+}

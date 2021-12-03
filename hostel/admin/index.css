@@ -1,0 +1,145 @@
+#username {
+    color: gray;
+}
+
+@media screen and (min-width: 651px) {
+    .admin_links_div {
+        align-items: center;
+    }
+    .admin_links {
+        width: 300px;
+    }
+    .input_div {
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .admin_links_div {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #hostels_div {
+        flex-direction: column;
+    }
+    .hostel {
+        width: 180px;
+    }
+    .input_div {
+        margin: 15px auto;
+        width: fit-content;
+    }
+}
+
+input {
+    width: 91%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 16px;
+}
+
+h2 {
+    text-align: center;
+}
+
+hr {
+    clear: both;
+    border: none;
+}
+
+.total_div {
+    display: flex;
+    float: right;
+    align-items: center;
+}
+
+.username_div {
+    display: flex;
+    float: right;
+    align-items: center;
+    box-shadow: 2px 2px 10px 2px rgb(226, 226, 226);
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 0px 5px 0px 5px;
+    height: 50px;
+}
+
+.logout_div {
+    transition: 0.5s;
+    margin-right: 20px;
+    width: fit-content;
+    padding: 10px 7px 7px 10px;
+    border-radius: 10px;
+    float: right;
+    box-shadow: 2px 2px 10px 2px rgb(226, 226, 226);
+}
+
+.logout_div:hover {
+    padding-left: 15px;
+}
+
+.admin_links {
+    transition: 0.5s;
+    color: rgb(17, 50, 69);
+    box-shadow: 2px 2px 10px 2px rgb(226, 226, 226);
+    padding: 15px 0px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.admin_links:hover {
+    background-color: rgb(17, 50, 69);
+    color: white;
+}
+
+.admin_links_div {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* Loading Hostels : */
+
+#hostels_div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(17, 50, 69);
+}
+
+.hostel {
+    transition: 0.5s;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px 2px rgb(226, 226, 226);
+}
+
+.hostel:hover {
+    box-shadow: 0px 0px 20px 2px rgb(182, 181, 181);
+}
+
+.hostel_headings {
+    color: gray;
+}
+
+.hostel_text {
+    color: rgb(17, 50, 69);
+    text-align: center;
+}

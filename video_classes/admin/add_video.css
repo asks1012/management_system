@@ -1,0 +1,78 @@
+h2 {
+    text-align: center;
+}
+
+@media screen and (min-width: 651px) {
+    .create_video {
+        width: 400px;
+        margin: 15px auto;
+    }
+    .help_image_div {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .create_video {
+        margin: 15px;
+    }
+    .help_image_div {
+        width: 90%;
+    }
+}
+
+.help_image {
+    width: 100%;
+    box-shadow: 2px 2px 10px 2px rgb(226, 226, 226);
+    border-radius: 5px;
+}
+
+.help_image_div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.create_video {
+    padding: 10px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 2px rgb(226, 226, 226);
+}
+
+input, textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type='text'], textarea, input[type='password'] {
+    width: 93%;
+    border: 1px solid rgb(184, 183, 183);
+}
+
+input[type='submit'] {
+    cursor: pointer;
+    box-shadow: 2px 2px 10px 2px rgb(226, 226, 226);
+    width: 99%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
+.delete_button {
+    background-color: red;
+}
+
+.submit_button {
+    background-color: rgb(38,178,253);
+}

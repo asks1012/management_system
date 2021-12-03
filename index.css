@@ -1,0 +1,153 @@
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    margin: 0px;
+}
+
+.logo_container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 900;
+    color: rgb(201,37,44);
+}
+
+@media screen and (max-width: 650px) {
+    #logo {
+        width: 60px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .link {
+        font-weight: 300;
+        box-shadow: 2px 2px 10px 2px rgb(241, 241, 241);
+    }
+    .links {
+        flex-direction: column;
+    }
+    .contactus {
+        flex-direction: column;
+        box-shadow: 2px 2px 10px 2px rgb(241, 241, 241);
+    }
+}
+
+@media screen and (min-width: 651px) {
+    #logo {
+        width: 90px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .slideshow-container {
+        width: 60%;
+    }
+    .link {
+        width: 300px;
+        font-weight: 400;
+        box-shadow: 2px 2px 10px 2px rgb(224, 221, 221);
+    }
+    .contactus {
+        justify-content: center;
+        width: fit-content;
+        box-shadow: 2px 2px 10px 2px rgb(224, 221, 221);
+    }
+    h2 {
+        text-align: center;
+    }
+}
+
+.img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 2px rgb(167, 161, 161);
+}
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 5px 10px ;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(230, 226, 226, 0.5);
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgb(230, 226, 226);
+}
+
+.numbertext {
+    color: white;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.link {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px 0px 15px 0px;
+    text-decoration: none;
+    color: rgb(201,37,44);
+    transition: 0.5s;
+    text-align: center;
+}
+
+.link:hover {
+    background-color: rgb(201,37,44);
+    color: white;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.contactus {
+    padding: 10px;
+    margin: 10px auto 30px auto;
+    border-radius: 10px;
+    display: flex;
+}
+
+h2 {
+    margin-left: 10px;
+    color: rgb(201,37,44);
+}
+
+h4 {
+    margin: 0px;
+    color: rgb(201,37,44);
+}
+
+footer {
+    background-color: rgb(201,37,44);
+    padding: 30px;
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+}

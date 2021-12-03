@@ -1,0 +1,152 @@
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    margin: 0px;
+}
+
+.logo_container {
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 10px 2px rgb(226, 226, 226);
+}
+
+h1 {
+    font-weight: 900;
+    color: rgb(68, 68, 68);    ;
+}
+
+@media screen and (max-width: 650px) {
+    #logo {
+        width: 35px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .boxes {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (min-width: 651px) {
+    #logo {
+        width: 55px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .slideshow-container {
+        width: 65%;
+    }
+    .boxes {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width: 1110px) {
+    .login_div {
+        margin-right: 30px;
+        width: 300px;
+    }
+    .boxes {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .boxes {
+        flex-direction: column;
+    }
+    .login_div {
+        margin: 15px;
+    }
+}
+
+@media screen and (min-width: 450px) {
+    .login_div {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+}
+
+.boxes {
+    display: flex;
+}
+
+.img {
+    border-radius: 10px;
+}
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+}
+
+.login_div {
+    height: fit-content;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    justify-content: center;
+    box-shadow: 2px 2px 10px 2px rgb(226, 226, 226);
+}
+
+.input {
+    font-size: 16px;
+    transition: 500ms;
+    border: 1px solid gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 15px 10px 15px 10px;
+    width: 90%;
+    border-radius: 5px;
+}
+
+.input:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px 2px rgb(226, 226, 226);
+}
+
+.submit {
+    transition: 500ms;
+    padding: 10px;
+    width: 40%;
+    font-size: 16px;
+    margin: 20px 0px 0px 0px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(38,178,253);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 2px rgb(226, 226, 226);
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.suggestion {
+    font-size: 14px;
+    color: gray;
+}
+
+.error {
+    color: red;
+}
+
+footer {
+    background-color: rgb(38,178,253);
+    padding: 30px;
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+}

@@ -1,0 +1,59 @@
+h2 {
+    text-align: center;
+}
+
+.books_taken_div {
+    box-shadow: 2px 2px 10px 2px rgb(226, 226, 226);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+table,th,td {
+    border-collapse: collapse;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+th {
+    color: rgb(247, 161, 26);
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 651px) {
+    .input_div {
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .books_taken_div {
+        width: 400px;
+        margin: 15px auto;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .input_div {
+        margin: 15px auto;
+        width: fit-content;
+    }
+    .books_taken_div {
+        margin: 15px;
+    }
+}
+
+.input_div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 91%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 16px;
+}

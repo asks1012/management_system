@@ -1,0 +1,121 @@
+#username {
+    color: gray;
+}
+
+@media screen and (min-width: 651px) {
+    .admin_links_div {
+        align-items: center;
+    }
+    .admin_links {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .admin_links_div {
+        flex-direction: column;
+    }
+}
+
+h2 {
+    text-align: center;
+}
+
+hr {
+    clear: both;
+    border: none;
+}
+
+.total_div {
+    display: flex;
+    float: right;
+    align-items: center;
+}
+
+.username_div {
+    display: flex;
+    float: right;
+    align-items: center;
+    box-shadow: 2px 2px 10px 2px rgb(226, 226, 226);
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 0px 5px 0px 5px;
+    height: 50px;
+}
+
+.logout_div {
+    transition: 0.5s;
+    margin-right: 20px;
+    width: fit-content;
+    padding: 10px 7px 7px 10px;
+    border-radius: 10px;
+    float: right;
+    box-shadow: 2px 2px 10px 2px rgb(226, 226, 226);
+}
+
+.logout_div:hover {
+    padding-left: 15px;
+}
+
+.admin_links {
+    transition: 0.5s;
+    color: rgb(247, 161, 26);
+    box-shadow: 2px 2px 10px 2px rgb(226, 226, 226);
+    padding: 15px 0px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.admin_links:hover {
+    background-color: rgb(247, 161, 26);
+    color: white;
+}
+
+.admin_links_div {
+    display: flex;
+    justify-content: center;
+}
+
+/* Loading Books : */
+
+#books_div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+    #books_div {
+        flex-direction: column;
+    }
+    .book {
+        width: 85%;
+    }
+}
+
+.book {
+    transition: 0.5s;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px 2px rgb(226, 226, 226);
+}
+
+.book:hover {
+    box-shadow: 0px 0px 20px 2px rgb(182, 181, 181);
+}
+
+.book_headings {
+    color: rgb(247, 161, 26);
+    font-weight: bold;
+}
+
+.book_text {
+    color: gray;
+}
